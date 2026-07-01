@@ -1,0 +1,18 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Python packaging / build artifacts
+build/
+dist/
+*.egg-info/
+
+# Arduino / IDE artifacts
+*.ino.with_bootloader.bin
+*.ino.bin
+*.ino.hex
+*.elf
+*.map
+*.lst
+.arduinoIDE/
