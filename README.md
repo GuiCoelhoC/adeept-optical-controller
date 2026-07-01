@@ -92,3 +92,8 @@ pip install -r requirements.txt
 - Deadband de 3° para evitar enviar comandos quando a diferença face ao último valor enviado é pequena
 - Rate limiting a 15 Hz para proteger a receção serial do Arduino
 - Alimentação dos servos separada da alimentação USB
+
+
+## Próximos Passos
+
+- Avaliar controlo de cotovelo e pulso
