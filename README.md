@@ -102,3 +102,8 @@ pip install -r requirements.txt
 - Deadband de 3° para evitar enviar comandos quando a diferença face ao último valor enviado é pequena
 - Rate limiting a 15 Hz para proteger a receção serial do Arduino
 - Alimentação dos servos separada da alimentação USB
+
+## Limitações e Questões em Aberto
+
+- **Distribuição de energia:** Design atual separa alimentação dos servos da alimentação da lógica — estudo futuro necessário sobre distribuição ótima de potência.
+- **Movimento irregular da garra:** O servo D11 apresenta movimento mais lento e irregular do que os outros — investigar se a causa está no comprimento do cabo, no desequilíbrio de carga do servo ou numa discrepância da frequência PWM.
