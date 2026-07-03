@@ -2,7 +2,7 @@
 
 ## Foto do Braço
 
-![Braço robótico Adeept](assets/images/arm-controller.jpg)
+![Braço robótico Adeept](assets/images/arm_controller.jpg)
 
 ## Vídeo de Demonstração
 
