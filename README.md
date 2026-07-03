@@ -1,5 +1,15 @@
 # Adeept MVP: Optical Gesture Controller
 
+## Foto do Braço
+
+![Braço robótico Adeept](assets/images/arm-controller.jpg)
+
+## Vídeo de Demonstração
+
+Cola aqui o link do YouTube:
+
+[Ver vídeo de demonstração](https://youtube.com/shorts/uPPbhAjYep4?feature=share)
+
 ## Visão Geral
 
 Sistema de controlo híbrido que traduz landmarks da mão detetados por visão computacional (MediaPipe) em comandos angulares para o braço robótico Adeept. Este projeto opera intencionalmente como um MVP de 3-DOF ativo (Base, Ombro, Garra). Os eixos do Cotovelo e do Pulso estão fixados por software a 90° para preservar a integridade estrutural do chassis de acrílico e reduzir a carga mecânica e elétrica durante o movimento.
@@ -92,8 +102,3 @@ pip install -r requirements.txt
 - Deadband de 3° para evitar enviar comandos quando a diferença face ao último valor enviado é pequena
 - Rate limiting a 15 Hz para proteger a receção serial do Arduino
 - Alimentação dos servos separada da alimentação USB
-
-
-## Próximos Passos
-
-- Avaliar controlo de cotovelo e pulso
